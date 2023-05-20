@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 } */
+
+.container {
+  width: 52.5%;
+  background: white;
+  /* box-shadow: 0 0 1px 0 rgba(0,0,0,0.5); */
+  margin: 10px auto 0 auto !important;
+  min-height: 100vh;
+  border: 1px 0 0 0 black !important ;
+}
+
+.ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #F3F3F3;
+  border: none;
+}
